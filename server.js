@@ -1,7 +1,7 @@
 // projectData will be the endpoint for all get/post routes to the server
 let projectData = {};
 // declare port that the server will listen to 
-const port =6000;
+const port =3000;
 // Require express to run server and routes
 const express=require('express');
 // Require cors to enable cross origin requests to the server endpoint

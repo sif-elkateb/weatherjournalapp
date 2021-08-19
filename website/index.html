@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>WeatherJournalApp</title>
 </head>
 <body>
-  <h1>Welcome to Weather Journal App</h1>
-  
+  <header>
+    <div class="container">
+      <h1>
+        Your weather journal Is right here 
+      </h1>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <form>
+        <label for="zip">Enter Zipcode here: <input type="text" placeholder="enter zip code here" id="zip"></label>
+        <label for="">How are you feeling today?<textarea id="feelings" placeholder="Enter your feelings here" ></textarea></label>
+        <button id="generate">Generate</button>
+        <div id ='entryHolder '>
+          <div id ='date'></div>
+          <div id ='temp'></div>
+          <div id ='content'></div>
+        </div>
+
+      </form>
+    </div>
+
+  </main>
 </body>
 </html>

@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html { 
+  background: url('https://i.ibb.co/BqQ4f8P/269395-minimalism-grass-nature-sky-simple-background-mist.jpg') no-repeat center center fixed; 
+  background-size: cover;
+}
+.container{
+  width:70%;
+  margin:auto;
+  background-color: #c7f3ff;
+  border-radius: 15px;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 600;
+  word-spacing: 1.5;
+  text-align: center;
+  color:#127984;
+  border:3px solid #127984;
+  opacity: .8;
+}
+@media only screen and (max-width: 768px) {
+  .container{
+    width:100%;
+  }
+  
+}
+
+header{
+  position:relative;
+  top:0;
+}
+h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main{
+  margin-top:30px;
+}
+main .container{
+  height: 550px;
+  font-size:1.9em;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin:5px;
+}
+label{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+input{
+  font-size: 1em;
+  color:#127984;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 90%;
+}
+
+textarea{
+  margin-top: 20px;
+  font-size:1em;
+  width:80%;
+  height:120px;
+  text-align: center;
+  color:#127984;
+  overflow: hidden;
+  border-radius: 5px;
+  resize:none;
+}
+button{
+  font-size:1em;
+  font-family: 'Patrick Hand', cursive;
+  width:fit-content;
+  padding:10px;
+  color:#127984;
+  margin:auto;
+  margin-top:30px;
+}
+

@@ -1,5 +1,5 @@
 // projectData will be the endpoint for all get/post routes to the server
-let projectData = {};
+const  projectData = {};
 // declare port that the server will listen to 
 const port =3000;
 // Require express to run server and routes
@@ -20,6 +20,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Initialize the main project folder
+
+
+
 app.use(express.static('website'));
 
 // Setup Server

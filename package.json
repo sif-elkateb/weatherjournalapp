@@ -4,7 +4,8 @@
   "description": "weatherapp that creates a nodejs express server and  asynchronously get weather data from OpenWeatherMap api and display it to the user",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",

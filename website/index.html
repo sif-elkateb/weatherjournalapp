@@ -20,19 +20,19 @@
   </header>
   <main>
     <div class="container">
-      <form>
-        <label for="zip">Enter Zipcode here: <input type="text" placeholder="enter zip code here" id="zip"></label>
-        <label for="">How are you feeling today?<textarea id="feelings" placeholder="Enter your feelings here" ></textarea></label>
+      <form action="">
+        <label for="zip">Enter Zipcode here: <input type="text" placeholder="enter zip code here" id="zip" required></label>
+        <label for="">How are you feeling today?<textarea id="feelings" placeholder="Enter your feelings here" required></textarea></label>
         <button id="generate">Generate</button>
         <div id ='entryHolder '>
           <div id ='date'></div>
           <div id ='temp'></div>
           <div id ='content'></div>
         </div>
-
       </form>
     </div>
 
   </main>
+  <script src='./app.js'></script>
 </body>
 </html>

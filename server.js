@@ -1,5 +1,5 @@
 // projectData will be the endpoint for all get/post routes to the server
-const  projectData = {};
+let  projectData = {};
 // declare port that the server will listen to 
 const port =3000;
 // Require express to run server and routes
@@ -29,4 +29,14 @@ app.use(express.static('website'));
 app.listen(port,()=>{
   console.log("server running successfully")
   console.log(`Server listening at port number ${port}`);
+})
+//set get route for the server endpoint
+app.get('/getdata',(req,res)=>{
+  res.send(projectData);
+})
+// set post route for adding to the server endpoint
+app.post('postdate',(req,res)=>{
+  const obj=req.body;
+  projectData={...obj};
+  res.send();
 })

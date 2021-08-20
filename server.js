@@ -32,11 +32,15 @@ app.listen(port,()=>{
 })
 //set get route for the server endpoint
 app.get('/getdata',(req,res)=>{
+  console.log('a new request to /getdata');
+  console.log(projectData);
   res.send(projectData);
 })
 // set post route for adding to the server endpoint
-app.post('postdate',(req,res)=>{
+app.post('/postdata',(req,res)=>{
+  console.log('a new request to /postdata');
   const obj=req.body;
   projectData={...obj};
+  console.log(projectData);
   res.send();
 })

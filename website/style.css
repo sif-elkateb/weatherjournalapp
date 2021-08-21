@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html { 
-  background: url('https://i.ibb.co/BqQ4f8P/269395-minimalism-grass-nature-sky-simple-background-mist.jpg') no-repeat center center fixed; 
+  background: url('weatherbackground.jpg') no-repeat center center fixed; 
   background-size: cover;
 }
 .container{

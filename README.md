@@ -1,6 +1,6 @@
 # **Weather Journal App**
 
-##  This project is part of Udacity Web development Proffessional Nanodegree  
+##  This project is part of Udacity Frontend Nanodegree  
 
 *   Asynchronous web app was Created that uses Web API [OpenWeatherMap](https://openweathermap.org/api).
 *   The user provides the zip code of the city and how he feels today.
